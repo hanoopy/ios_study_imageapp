@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA185BB19FE1AA100994867 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA185BA19FE1AA100994867 /* AppDelegate.swift */; };
+		CEA185BD19FE1AA100994867 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA185BC19FE1AA100994867 /* ViewController.swift */; };
+		CEA185C019FE1AA100994867 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA185BE19FE1AA100994867 /* Main.storyboard */; };
+		CEA185C219FE1AA100994867 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA185C119FE1AA100994867 /* Images.xcassets */; };
+		CEA185C519FE1AA100994867 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA185C319FE1AA100994867 /* LaunchScreen.xib */; };
+		CEA185D119FE1AA100994867 /* ImageAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA185D019FE1AA100994867 /* ImageAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA185CB19FE1AA100994867 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA185AD19FE1AA100994867 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA185B419FE1AA100994867;
+			remoteInfo = ImageApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA185B519FE1AA100994867 /* ImageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA185B919FE1AA100994867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA185BA19FE1AA100994867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA185BC19FE1AA100994867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA185BF19FE1AA100994867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA185C119FE1AA100994867 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA185C419FE1AA100994867 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA185CA19FE1AA100994867 /* ImageAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA185CF19FE1AA100994867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA185D019FE1AA100994867 /* ImageAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAppTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA185B219FE1AA100994867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA185C719FE1AA100994867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA185AC19FE1AA100994867 = {
+			isa = PBXGroup;
+			children = (
+				CEA185B719FE1AA100994867 /* ImageApp */,
+				CEA185CD19FE1AA100994867 /* ImageAppTests */,
+				CEA185B619FE1AA100994867 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA185B619FE1AA100994867 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA185B519FE1AA100994867 /* ImageApp.app */,
+				CEA185CA19FE1AA100994867 /* ImageAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA185B719FE1AA100994867 /* ImageApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEA185BA19FE1AA100994867 /* AppDelegate.swift */,
+				CEA185BC19FE1AA100994867 /* ViewController.swift */,
+				CEA185BE19FE1AA100994867 /* Main.storyboard */,
+				CEA185C119FE1AA100994867 /* Images.xcassets */,
+				CEA185C319FE1AA100994867 /* LaunchScreen.xib */,
+				CEA185B819FE1AA100994867 /* Supporting Files */,
+			);
+			path = ImageApp;
+			sourceTree = "<group>";
+		};
+		CEA185B819FE1AA100994867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA185B919FE1AA100994867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA185CD19FE1AA100994867 /* ImageAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA185D019FE1AA100994867 /* ImageAppTests.swift */,
+				CEA185CE19FE1AA100994867 /* Supporting Files */,
+			);
+			path = ImageAppTests;
+			sourceTree = "<group>";
+		};
+		CEA185CE19FE1AA100994867 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA185CF19FE1AA100994867 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA185B419FE1AA100994867 /* ImageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA185D419FE1AA100994867 /* Build configuration list for PBXNativeTarget "ImageApp" */;
+			buildPhases = (
+				CEA185B119FE1AA100994867 /* Sources */,
+				CEA185B219FE1AA100994867 /* Frameworks */,
+				CEA185B319FE1AA100994867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageApp;
+			productName = ImageApp;
+			productReference = CEA185B519FE1AA100994867 /* ImageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA185C919FE1AA100994867 /* ImageAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA185D719FE1AA100994867 /* Build configuration list for PBXNativeTarget "ImageAppTests" */;
+			buildPhases = (
+				CEA185C619FE1AA100994867 /* Sources */,
+				CEA185C719FE1AA100994867 /* Frameworks */,
+				CEA185C819FE1AA100994867 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA185CC19FE1AA100994867 /* PBXTargetDependency */,
+			);
+			name = ImageAppTests;
+			productName = ImageAppTests;
+			productReference = CEA185CA19FE1AA100994867 /* ImageAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA185AD19FE1AA100994867 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hanoopy;
+				TargetAttributes = {
+					CEA185B419FE1AA100994867 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CEA185C919FE1AA100994867 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CEA185B419FE1AA100994867;
+					};
+				};
+			};
+			buildConfigurationList = CEA185B019FE1AA100994867 /* Build configuration list for PBXProject "ImageApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA185AC19FE1AA100994867;
+			productRefGroup = CEA185B619FE1AA100994867 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA185B419FE1AA100994867 /* ImageApp */,
+				CEA185C919FE1AA100994867 /* ImageAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA185B319FE1AA100994867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA185C019FE1AA100994867 /* Main.storyboard in Resources */,
+				CEA185C519FE1AA100994867 /* LaunchScreen.xib in Resources */,
+				CEA185C219FE1AA100994867 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA185C819FE1AA100994867 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA185B119FE1AA100994867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA185BD19FE1AA100994867 /* ViewController.swift in Sources */,
+				CEA185BB19FE1AA100994867 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA185C619FE1AA100994867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA185D119FE1AA100994867 /* ImageAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA185CC19FE1AA100994867 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA185B419FE1AA100994867 /* ImageApp */;
+			targetProxy = CEA185CB19FE1AA100994867 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA185BE19FE1AA100994867 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA185BF19FE1AA100994867 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA185C319FE1AA100994867 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA185C419FE1AA100994867 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA185D219FE1AA100994867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA185D319FE1AA100994867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA185D519FE1AA100994867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEA185D619FE1AA100994867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ImageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEA185D819FE1AA100994867 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageApp.app/ImageApp";
+			};
+			name = Debug;
+		};
+		CEA185D919FE1AA100994867 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImageAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageApp.app/ImageApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA185B019FE1AA100994867 /* Build configuration list for PBXProject "ImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA185D219FE1AA100994867 /* Debug */,
+				CEA185D319FE1AA100994867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA185D419FE1AA100994867 /* Build configuration list for PBXNativeTarget "ImageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA185D519FE1AA100994867 /* Debug */,
+				CEA185D619FE1AA100994867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA185D719FE1AA100994867 /* Build configuration list for PBXNativeTarget "ImageAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA185D819FE1AA100994867 /* Debug */,
+				CEA185D919FE1AA100994867 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA185AD19FE1AA100994867 /* Project object */;
+}
